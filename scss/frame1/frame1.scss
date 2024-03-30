@@ -1,0 +1,35 @@
+.frame1 {
+    display: flex;
+    align-items: center;
+    background-color: #171C8F;
+    .photo1 {
+        width: 55vw;
+        margin-left: 3vw;
+        margin-bottom: 3vw;
+    }
+    .text {
+        width: 30vw;
+        margin-right: 10vw;
+        margin-left: 5vw;
+        h1 {
+            font-size: 3vw;
+            width: 30vw;
+            color: #D7B9E4;
+            letter-spacing: 0.5vw;
+            line-height: 5vw;
+            font-weight: 400;
+        }
+        p {
+            font-size: 1vw;
+            color: #FFFFFF;
+            font-weight: 100;
+            width: 20vw;
+            line-height: 2vw;
+            margin-top: 1vw;
+            margin-bottom: 2vw;
+        }
+        img {
+            width: 10vw;
+        }
+    }
+}

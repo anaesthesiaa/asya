@@ -1,0 +1,35 @@
+.frame1 {
+  display: flex;
+  align-items: center;
+  background-color: #171C8F;
+}
+.frame1 .photo1 {
+  width: 55vw;
+  margin-left: 3vw;
+  margin-bottom: 3vw;
+}
+.frame1 .text {
+  width: 30vw;
+  margin-right: 10vw;
+  margin-left: 5vw;
+}
+.frame1 .text h1 {
+  font-size: 3vw;
+  width: 30vw;
+  color: #D7B9E4;
+  letter-spacing: 0.5vw;
+  line-height: 5vw;
+  font-weight: 400;
+}
+.frame1 .text p {
+  font-size: 1vw;
+  color: #FFFFFF;
+  font-weight: 100;
+  width: 20vw;
+  line-height: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+.frame1 .text img {
+  width: 10vw;
+}/*# sourceMappingURL=frame1.css.map */
