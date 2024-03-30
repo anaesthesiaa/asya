@@ -1,0 +1,38 @@
+.frame2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vw;
+}
+
+.stolbik1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stolbik2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stolbik1__h1 {
+  align-self: baseline;
+  margin: 3vw;
+  font-size: 3vw;
+}
+
+.stolbik1__img {
+  width: 30vw;
+  margin: 3vw;
+}
+
+.stolbik2__img {
+  width: 30vw;
+  margin: 3vw;
+}
+
+p {
+  font-size: 2vw;
+  letter-spacing: 0.15vw;
+}/*# sourceMappingURL=frame2.css.map */
