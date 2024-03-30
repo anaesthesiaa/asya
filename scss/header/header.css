@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  height: 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #171C8F;
+}
+
+.logo {
+  margin-left: 3vw;
+}
+.logo .logo_img {
+  width: 15vw;
+}
+
+.menu {
+  margin-right: 10vw;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1vw;
+  font-weight: 100;
+  padding: 1.5vw;
+  letter-spacing: 0.15vw;
+}
+.menu a:hover {
+  color: rgb(244, 195, 204);
+  -webkit-text-decoration: wavy underline;
+          text-decoration: wavy underline;
+}/*# sourceMappingURL=header.css.map */

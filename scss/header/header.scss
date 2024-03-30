@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    height: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171C8F;
+}
+.logo {
+    margin-left: 3vw;
+    .logo_img {
+        width: 15vw;
+    }
+}
+.menu {
+    margin-right: 10vw;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        font-size: 1vw;
+        font-weight: 100;
+        padding: 1.5vw;
+        letter-spacing: 0.15vw;
+        &:hover {
+            color: rgba(244, 195, 204, 1);
+            text-decoration: wavy underline;
+        }
+    }
+}
