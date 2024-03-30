@@ -1,0 +1,244 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #171C8F;
+}
+
+.logo {
+  margin-left: 3vw;
+}
+.logo .logo_img {
+  width: 15vw;
+}
+
+.menu {
+  margin-right: 10vw;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1vw;
+  font-weight: 100;
+  padding: 1.5vw;
+  letter-spacing: 0.15vw;
+}
+.menu a:hover {
+  color: rgb(244, 195, 204);
+  -webkit-text-decoration: wavy underline;
+          text-decoration: wavy underline;
+}
+
+.frame1 {
+  display: flex;
+  align-items: center;
+  background-color: #171C8F;
+}
+.frame1 .photo1 {
+  width: 55vw;
+  margin-left: 3vw;
+  margin-bottom: 3vw;
+}
+.frame1 .text {
+  width: 30vw;
+  margin-right: 10vw;
+  margin-left: 5vw;
+}
+.frame1 .text h1 {
+  font-size: 3vw;
+  width: 30vw;
+  color: #D7B9E4;
+  letter-spacing: 0.5vw;
+  line-height: 5vw;
+  font-weight: 400;
+}
+.frame1 .text p {
+  font-size: 1vw;
+  color: #FFFFFF;
+  font-weight: 100;
+  width: 20vw;
+  line-height: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+.frame1 .text img {
+  width: 10vw;
+}
+
+.frame2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2vw;
+}
+
+.stolbik1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stolbik2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stolbik1__h1 {
+  align-self: baseline;
+  margin: 3vw;
+  font-size: 3vw;
+}
+
+.stolbik1__img {
+  width: 30vw;
+  margin: 3vw;
+}
+
+.stolbik2__img {
+  width: 30vw;
+  margin: 3vw;
+}
+
+p {
+  font-size: 2vw;
+  letter-spacing: 0.15vw;
+}
+
+.frame3__img {
+  width: 100%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.frame4 {
+  margin-top: 5vw;
+}
+
+.frame4__text {
+  text-align: center;
+}
+.frame4__text h1 {
+  font-size: 3vw;
+  letter-spacing: 0.25vw;
+}
+.frame4__text p {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  font-size: 1.5vw;
+  font-weight: lighter;
+}
+.frame4__text a {
+  font-size: 1vw;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.15vw;
+}
+
+.frame4__photos {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.frame4__photos .frame4__photos_img {
+  width: 20vw;
+}
+
+.footer {
+  background-color: #477A7B;
+}
+
+.footer__line1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.footer__line1 .footer__line1_left-top {
+  color: #FFFFFF;
+  font-size: 1.5vw;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+  letter-spacing: 0.25vw;
+}
+.footer__line1 .footer__line1_left-bottom {
+  color: #FFFFFF;
+  font-size: 1vw;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+  font-weight: lighter;
+}
+.footer__line1 .footer__line1_right-button {
+  background-color: #FFFFFF;
+  border: 1vw solid #FFFFFF;
+  color: #477A7B;
+  font-size: 1vw;
+  border-radius: 2vw;
+}
+
+.button {
+  text-decoration: none;
+}
+
+.footer__line2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.footer__line2 p {
+  color: #FFFFFF;
+  font-size: 1vw;
+}
+.footer__line2 a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.footer__line2 img {
+  width: 10vw;
+}
+.footer__line2 .footer__line2_center1, .footer__line2 .footer__line2_center2 {
+  text-transform: uppercase;
+  line-height: 3vw;
+}
+.footer__line2 .footer__line2_center1 p, .footer__line2 .footer__line2_center2 p {
+  letter-spacing: 0.25vw;
+}
+.footer__line2 .footer__line2_left {
+  margin-left: 5vw;
+}
+.footer__line2 .footer__line2_right {
+  margin-right: 5vw;
+  line-height: 2vw;
+}
+
+.footer__line3 {
+  margin-top: 2vw;
+  padding-bottom: 2vw;
+}
+.footer__line3 p {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 1vw;
+  margin-left: 5vw;
+}/*# sourceMappingURL=main.css.map */
